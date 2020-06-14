@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/kernel:kernel \
+	$(LOCAL_PATH)/recovery_dtbo:recovery_dtbo \
 	$(LOCAL_PATH)/recovery/root/etc/recovery.fstab:recovery.fstab \
 	system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
