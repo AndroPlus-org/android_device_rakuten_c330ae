@@ -53,6 +53,16 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 0x18000000
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 0x2000000
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
+# System as root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
+
+# Workaround for error copying vendor files to recovery ramdisk
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR := vendor
+
+TARGET_COPY_OUT_VENDOR := vendor
+
 # Cmdline
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 
 BOARD_KERNEL_CMDLINE += androidboot.console=ttyMSM0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 
