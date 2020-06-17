@@ -71,8 +71,6 @@ BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true loop.max_part=7 androidboot
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_SOURCE := kernel/rakuten/c330ae/msm-4.9
-TARGET_KERNEL_CONFIG := c330ae-perf_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_PREBUILT_KERNEL := $(PLATFORM_PATH)/kernel
 BOARD_KERNEL_BASE := 0x80000000
