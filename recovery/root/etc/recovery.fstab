@@ -25,8 +25,6 @@
 # Persist
 /persist          ext4     /dev/block/bootdevice/by-name/persist      flags=display="Persist";backup=1
 /persist_image    emmc     /dev/block/bootdevice/by-name/persist      flags=display="Persist Image";flashimg=1
-/persistbak       ext4     /dev/block/bootdevice/by-name/persistbak   flags=display="Persist Backup";backup=1
-/persistbak_image emmc     /dev/block/bootdevice/by-name/persistbak   flags=display="Persist Backup";flashimg=1
 
 # EFS
 /efs1             emmc     /dev/block/bootdevice/by-name/modemst1     flags=backup=1;display="efs1"
