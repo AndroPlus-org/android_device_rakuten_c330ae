@@ -44,4 +44,5 @@ PRODUCT_PROPERTY_OVERRIDES := ro.treble.enabled=true
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.build.version.security_patch=2099-12-31 \
 	ro.vendor.build.security_patch=2099-12-31 \
-	ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+	ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi \
+	sys.usb.config=adb
