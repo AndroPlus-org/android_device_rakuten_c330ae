@@ -122,3 +122,4 @@ TW_NO_EXFAT := false
 TW_NO_EXFAT_FUSE := false
 TW_INCLUDE_NTFS_3G := true
 TW_HAS_EDL_MODE := true
+TW_INCLUDE_RESETPROP := true
