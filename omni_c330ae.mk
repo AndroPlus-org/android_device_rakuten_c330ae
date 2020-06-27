@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/root/etc/recovery.fstab:recovery.fstab \
 	system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-PRODUCT_DEVICE	:= C330
+PRODUCT_DEVICE	:= c330ae
 PRODUCT_NAME	:= omni_c330ae
 PRODUCT_BRAND	:= Rakuten
 PRODUCT_MODEL	:= C330
