@@ -124,3 +124,4 @@ TW_INCLUDE_NTFS_3G := true
 TW_HAS_EDL_MODE := true
 TW_INCLUDE_RESETPROP := true
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.sdk;ro.build.version.security_patch;ro.build.version.release"
+TW_SKIP_COMPATIBILITY_CHECK := true
