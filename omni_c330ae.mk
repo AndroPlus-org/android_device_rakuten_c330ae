@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/root/etc/recovery.fstab:recovery.fstab \
 	system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
-PRODUCT_DEVICE	:= c330ae
+PRODUCT_DEVICE	:= C330
 PRODUCT_NAME	:= omni_c330ae
 PRODUCT_BRAND	:= Rakuten
 PRODUCT_MODEL	:= C330
@@ -45,4 +45,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.build.version.security_patch=2099-12-31 \
 	ro.vendor.build.security_patch=2099-12-31 \
 	ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi \
-	sys.usb.config=adb
+	sys.usb.config=mtp,adb
