@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_kernel_rakuten_c330ae",
+    "target_path": "kernel/rakuten/c330ae"
+  }
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  }
+]

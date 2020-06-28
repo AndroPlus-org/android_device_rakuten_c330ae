@@ -1,0 +1,2 @@
+# Brightness
+ persist.sys.qcom-brightness="$(cat /sys/class/leds/lcd-backlight/max_brightness)"

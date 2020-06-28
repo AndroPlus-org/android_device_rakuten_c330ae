@@ -1,0 +1,24 @@
+# Proprietary files for c330ae
+
+#Calling
+framework/QtiTelephonyServicelibrary.jar
+-app/QtiTelephonyService/QtiTelephonyService.apk
+framework/qcrilhook.jar
+etc/permissions/qcrilhook.xml
+lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
+lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
+
+
+#Volte
+-app/uceShimService/uceShimService.apk
+lib64/lib-imscamera.so
+lib64/lib-imsvideocodec.so
+lib64/lib-imsvt.so
+lib64/lib-imsvtextutils.so
+lib64/lib-imsvtutils.so
+lib64/libdiag_system.so
+lib64/libimscamera_jni.so
+lib64/libimsmedia_jni.so
+lib64/librcc.so
+lib64/vendor.qti.imsrtpservice@1.0.so
+-priv-app/ims/ims.apk
