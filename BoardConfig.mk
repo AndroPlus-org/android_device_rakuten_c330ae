@@ -164,9 +164,6 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 #BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 #BOARD_USES_VENDORIMAGE := true
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
-
 # Props
 TARGET_SYSTEM_PROP += device/rakuten/c330ae/system.prop
 
